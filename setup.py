@@ -14,5 +14,5 @@ kpl.smy_setup(kpl,
             description='A Python Toolkit Library for developing packages',
             python_requires='>=3.9',
             download_url='https://pypi.org/project/kitpylib/#files',
-            url='https://pypi.org/project/kitpylib/'
+            url='https://kitpylib.pages.dev'
             )
