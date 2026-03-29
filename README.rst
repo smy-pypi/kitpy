@@ -1,30 +1,25 @@
-KitPy
-=====
+KitPyLib
+========
 
-A Python Library of basic tools.
+A Python Toolkit Library for developing packages.
 
-How to use
-----------
-We recommend you to import `kitpy` as ``kp``:\n
-  >>> import kitpy as kp
-  >>> kp.fplot2d(lambda x: x**3, 0, 2)
+How to install this package
+---------------------------
+If you don’t have Python yet and want the simplest way to get started, 
+we recommend you use the Anaconda Distribution, or using::
+
+  pip install kitpylib
+
+How to use documentation
+------------------------
+We recommend you to import `kitpylib` as ``kpl``::
+
+  >>> import kitpylib as kpl
+  >>> kpl.fplot2d(lambda x: x**3, 0, 2)
   
-Use the built-in ``help`` function to view a function's docstring:\n
-  >>> help(kp.fplot2d)
+Use the built-in ``help`` function to view a function's docstring::
+
+  >>> help(kpl.fplot2d)
   ... # doctest: +SKIP
-  
-Available subpackages
----------------------
-PyFile
-    KitPy's subpackage to solve txt file problems
-PyWidget
-    KitPy's subpackage about qt widgets
-   
-Utilities
----------
-__version__
-    KitPy version string
-__copr__
-    KitPy copyright string
-__lic__
-    KitPy license string
+
+You can also visit our website https://kitpylib.pages.dev for more information.
